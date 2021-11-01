@@ -26,7 +26,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -34,7 +34,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'isi',
             ]),
             new PostKontrakan([
@@ -42,7 +42,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -50,7 +50,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -58,7 +58,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -66,7 +66,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M     <li>Kamar Tidur 2</li><li>Kamar Mandi 1     ',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -74,7 +74,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M     <li>Kamar Tidur 2</li><li>Kamar Mandi 1     ',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -82,7 +82,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -90,7 +90,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -98,7 +98,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -106,7 +106,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -114,7 +114,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -122,7 +122,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -130,7 +130,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -138,7 +138,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -146,7 +146,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -154,7 +154,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -162,7 +162,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -170,7 +170,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -178,7 +178,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -186,7 +186,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -194,7 +194,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
             new PostKontrakan([
@@ -202,7 +202,7 @@ class PostKontrakanSeeder extends Seeder
                 'thumbnail' => 'produk_default.jpeg',
                 'content' => '<ul><li>Luas rumah 3x7M</li><li>Kamar Tidur 2</li><li>Kamar Mandi 1</li></ul>',
                 'address' => 'Jl.Cempaka Putih Raya, Cempaka Putih Barat, Jakarta Timur',
-                'price' => '500000',
+                'price' => '800000',
                 'status' => 'kosong',
             ]),
         ]);

@@ -13,10 +13,10 @@
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
                             <h6>{{ \Carbon\Carbon::now()->format('l, j F Y') }}</h6>
-                            <a href="{{ route('laporan.create') }}" class="btn btn-success btn-sm">
+                            {{-- <a href="{{ route('laporan.create') }}" class="btn btn-success btn-sm">
                                 CREATE NOTIFICATION
                                 <i class="fas fa-bullhorn fa-fw"></i>
-                            </a>
+                            </a> --}}
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">

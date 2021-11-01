@@ -19,7 +19,7 @@
                       Kamar Nomer 1
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="{{ route('list') }}"><span class="price-a">Harga | Rp.500.000</span></a>
+                      <a href="{{ route('list') }}"><span class="price-a">Harga | Rp.800.000</span></a>
                     </p>
                   </div>
                 </div>
@@ -41,7 +41,7 @@
                       Kamar Nomer 2
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="{{ route('list') }}"><span class="price-a">Harga | Rp.500.000</span></a>
+                      <a href="{{ route('list') }}"><span class="price-a">Harga | Rp.800.000</span></a>
                     </p>
                   </div>
                 </div>
@@ -63,7 +63,7 @@
                       Kamar Nomer 3
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="{{ route('list') }}"><span class="price-a">Harga | Rp.500.000</span></a>
+                      <a href="{{ route('list') }}"><span class="price-a">Harga | Rp.800.000</span></a>
                     </p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Our Services</h2>
+              <h2 class="title-a">Layanan Kami :</h2>
             </div>
           </div>
         </div>
@@ -172,21 +172,19 @@
                 <span class="fa fa-gamepad"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Lifestyle</h2>
+                <h2 class="title-c">Kepuasan</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                Kami menyediakan rumah sewa yang bersih aman dengan fasilitas yang tersedia untuk meningkatkan kepuasan kalian.
               </p>
             </div>
-            <div class="card-footer-c">
+            {{-- <div class="card-footer-c">
               <a href="#" class="link-c link-icon">Read more
                 <span class="ion-ios-arrow-forward"></span>
               </a>
-            </div>
+            </div> --}}
           </div>
         </div>
         <div class="col-md-4">
@@ -196,21 +194,19 @@
                 <span class="fa fa-usd"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Loans</h2>
+                <h2 class="title-c">Harga Terjangkau</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a.
+                Kami menyediakan rumah sewa dengan harga sewa yang terjangkau untuk kalian.
               </p>
             </div>
-            <div class="card-footer-c">
+            {{-- <div class="card-footer-c">
               <a href="#" class="link-c link-icon">Read more
                 <span class="ion-ios-arrow-forward"></span>
               </a>
-            </div>
+            </div> --}}
           </div>
         </div>
         <div class="col-md-4">
@@ -220,14 +216,12 @@
                 <span class="fa fa-home"></span>
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Sell</h2>
+                <h2 class="title-c">Tempat Strategis</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                Kami menyediakan rumah sewa ditempat yang strategis dengan bangunan rumah saling berhadapan untuk menjalin komunikasi yang baik.
               </p>
             </div>
             <div class="card-footer-c">
@@ -274,7 +268,7 @@
                         <a href="{{ route('detail', $post->id) }}">
                           {{ $post->title }}
                           <br>
-                          <sup>{{ $diff_date }}</sup>
+                          {{-- <sup>{{ $diff_date }}</sup> --}}
                         </a>
                       </h2>
                     </div>

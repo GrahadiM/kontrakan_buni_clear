@@ -111,6 +111,7 @@ class LaporanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Laporan::find($id)->delete();
+        return redirect()->back();
     }
 }

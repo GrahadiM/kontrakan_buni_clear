@@ -4,11 +4,10 @@ namespace App\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use App\Models\SendMail;
-use App\Mail\KontrakanBuniEmail;
 use App\Models\Sewa;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
+use App\Mail\KontrakanBuniEmail;
 use Illuminate\Support\Facades\Mail;
 
 class FrontendController extends Controller
@@ -41,46 +40,23 @@ class FrontendController extends Controller
 
     public function contact()
     {
-        // Mail::to("kontrakanbuni@gmail.com")->send(new KontrakanBuniEmail());
-
         // return view('compro.contact');
         return view('frontend.contact');
     }
     
-    public function sendemail(Request $request, SendMail $send)
+    public function sendemail(Request $request)
     {
-        // SendMail::created([
-        //     'name' => $request->name,
-        //     'email' => $request->email,
-        //     'subject' => $request->subject,
-        //     'message' => $request->message,
-        //     'website' => 'https://www.kontrakanbuni.com/',
-        // ]);
-
-        $send = new \App\Models\SendMail;
-        $send->name = $request->name;
-        $send->email = $request->email;
-        $send->subject = $request->subject;
-        $send->message = $request->message;
-        $send->website = 'https://www.kontrakanbuni.com/';
-        $send->save();
-
-        $request->request->add(['send_id' => $send->id]);
-        // $send = \App\Models\SendMail::create($request->all());
+        $data = $request->all();
+        // dd($data);
+        Mail::to('kontrakanbuni@gmail.com')->send(new KontrakanBuniEmail($data));
         
-        \Mail::raw('Pesan dari pengunjung website '.$send->name, function ($message) use($send) {
-            $message->from($send->email, $send->name);
-            $message->to('abdurrahmangrahadimaulana@gmail.com', 'Hadoy');
-            $message->subject($send->subject);
-        });
+        // \Mail::raw('Pesan dari pengunjung website '.$send->name, function ($message) use($send) {
+        //     $message->from($send->email, $send->name);
+        //     $message->to('abdurrahmangrahadimaulana@gmail.com', 'Hadoy');
+        //     $message->subject($send->subject);
+        // });
 
-        // Mail::to("kontrakanbuni@gmail.com")->send(new KontrakanBuniEmail());
-
-        // return Mail::create([
-        //     'name' => $request->name,
-        //     'email' => $request->email,
-        //     'message' => $request->message,
-        // ]);
+        // toastr()->success('Thank you for feedback','Successfull',['timeOut'=>2000]);
         return redirect()->route('contact-us');
     }
 
@@ -120,7 +96,8 @@ class FrontendController extends Controller
             $diff_date = $carbonated_date->diffForHumans(Carbon::now());
             $diff_date;
         }
-        return view('compro.list',compact('posts', 'limit', 'diff_date'));
+        // return view('compro.list',compact('posts', 'limit', 'diff_date'));
+        return view('frontend.list',compact('posts', 'limit', 'diff_date'));
     }
 
     public function detail($id)

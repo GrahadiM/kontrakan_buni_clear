@@ -333,10 +333,10 @@
   </section> --}}
 
   <footer>
-      <div class="container">
+      <div class="container mt-5">
           <div class="row">
               <div class="col-md-12">
-                  <div class="socials-a">
+                  {{-- <div class="socials-a">
                       <ul class="list-inline">
                           <li class="list-inline-item">
                               <a href="#">
@@ -364,7 +364,7 @@
                               </a>
                           </li>
                       </ul>
-                  </div>
+                  </div> --}}
                   <div class="copyright-footer">
                       <p class="copyright color-text-a">
                           &copy; Copyright

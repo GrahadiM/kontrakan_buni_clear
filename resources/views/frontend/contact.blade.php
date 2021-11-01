@@ -47,7 +47,43 @@
         <div class="col-sm-12 section-t8">
           <div class="row">
             <div class="col-md-7">
-              <form class="form-a contactForm" action="/sendemail" method="POST" enctype="multipart/form-data">
+                <form class="form-a" action="{{ route('sendemail') }}" method="POST" enctype="multipart/form-data">
+                  @csrf
+                  <div class="row">
+                    <div class="col-md-12 col-lg-6 mb-1">
+                      <div class="form-group">
+                        <label for="name">Nama :</label>
+                        <input name="name" type="text" class="form-control form-control-lg form-control-a" id="name"
+                          placeholder="Nama Anda *" required>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 mb-1">
+                      <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input name="email" type="text" class="form-control form-control-lg form-control-a" id="email"
+                          placeholder="Email Anda *" required>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 mb-1">
+                      <div class="form-group">
+                        <label for="subject">Subjek :</label>
+                        <input name="subject" type="text" class="form-control form-control-lg form-control-a" id="subject"
+                          placeholder="Subjek *" required>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 mb-1">
+                      <div class="form-group">
+                        <label for="message">Pesan :</label>
+                        <textarea name="message" type="text" cols="45" rows="8" class="form-control" id="message"
+                          placeholder="Pesan Anda *" required></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn btn-b">Pesan</button>
+                    </div>
+                  </div>
+                </form>
+              {{-- <form class="form-a contactForm" action="{{ route('sendemail') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 
                 <div id="sendmessage">Your message has been sent. Thank you!</div>
@@ -56,32 +92,32 @@
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name">
-                      {{-- <div class="validation"></div> --}}
+                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email">
-                      {{-- <div class="validation"></div> --}}
+                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
                       <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject">
-                      {{-- <div class="validation"></div> --}}
+                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-12 mb-3">
                     <div class="form-group">
                       <textarea name="message" class="form-control" cols="45" rows="8" placeholder="Message"></textarea>
-                      {{-- <div class="validation"></div> --}}
+                      <div class="validation"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <button type="submit" class="btn btn-a">Send Message</button>
                   </div>
                 </div>
-              </form>
+              </form> --}}
             </div>
             <div class="col-md-5 section-md-t3">
               <div class="icon-box section-b2">
@@ -94,16 +130,16 @@
                   </div>
                   <div class="icon-box-content">
                     <p class="mb-1">Email.
-                      <a href="mailto:kontrakanbuni@gmail.com" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                      <a href="mailto:arifrhmn1999@gmail.com" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
                         <span class="color-a">
-                          {{ __('kontrakanbuni@gmail.com') }}
+                          {{ __('arifrhmn1999@gmail.com') }}
                         </span>
                       </a>
                     </p>
                     <p class="mb-1">Phone.
-                      <a href="https://wa.me/085767113554" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                      <a href="https://wa.me/081282341589" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
                         <span class="color-a">
-                          {{ __('085767113554') }}
+                          {{ __('081282341589') }}
                         </span>
                       </a>
                     </p>
@@ -120,13 +156,15 @@
                   </div>
                   <div class="icon-box-content">
                     <p class="mb-1">
-                      Jl. Joglo Raya No.21 E, RT.8/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat
-                      <br>Daerah Khusus Ibukota Jakarta 11640
+                      {{-- Jl. Joglo Raya No.21 E, RT.8/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat
+                      <br>Daerah Khusus Ibukota Jakarta 11640 --}}
+                      Jl. Trisula Ujung Tegal Alur, Kec. Kalideres, Kota Jakarta Barat,
+                      Daerah Khusus Ibukota Jakarta 11820
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="icon-box">
+              {{-- <div class="icon-box">
                 <div class="icon-box-icon">
                   <span class="ion-ios-redo"></span>
                 </div>
@@ -166,7 +204,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> --}}
             </div>
           </div>
         </div>

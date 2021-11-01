@@ -15,7 +15,7 @@ class TransaksiSeeder extends Seeder
     {
         \App\Models\Transaksi::create([
             'sewa_id'  => 1,
-            'nominal' => 500000,
+            'nominal' => 800000,
             'bukti_pembayaran' => 'produk_default.jpg',
             'bulan' => 'September',
             'tahun' => '2021',
@@ -24,7 +24,7 @@ class TransaksiSeeder extends Seeder
         ]);
         \App\Models\Transaksi::create([
             'sewa_id'  => 1,
-            'nominal' => 500000,
+            'nominal' => 800000,
             'bukti_pembayaran' => 'produk_default.jpg',
             'bulan' => 'Oktober',
             'tahun' => '2021',
@@ -33,7 +33,7 @@ class TransaksiSeeder extends Seeder
         ]);
         \App\Models\Transaksi::create([
             'sewa_id'  => 1,
-            'nominal' => 500000,
+            'nominal' => 800000,
             'bukti_pembayaran' => 'produk_default.jpg',
             'bulan' => 'November',
             'tahun' => '2021',
@@ -42,7 +42,7 @@ class TransaksiSeeder extends Seeder
         ]);
         \App\Models\Transaksi::create([
             'sewa_id'  => 1,
-            'nominal' => 500000,
+            'nominal' => 800000,
             'bukti_pembayaran' => 'produk_default.jpg',
             'bulan' => 'Desember',
             'tahun' => '2021',

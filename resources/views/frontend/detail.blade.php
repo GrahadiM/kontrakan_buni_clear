@@ -59,7 +59,7 @@
             </div> --}}
           </div>
           <div class="row justify-content-between">
-            <div class="col-md-5 col-lg-4">
+            {{-- <div class="col-md-5 col-lg-4">
               <div class="property-price d-flex justify-content-center foo">
                 <div class="card-header-c d-flex">
                   <div class="card-box-ico">
@@ -69,6 +69,20 @@
                     <h5 class="title-c">{{ $post->price }}</h5>
                   </div>
                 </div>
+              </div>
+            </div> --}}
+            <div class="col-md-5 col-lg-5 section-md-t3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title-box-d">
+                    <h3 class="title-d">{{ __('Rp.').$post->price }}</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="property-description">
+                <p class="description color-text-a">
+                  
+                </p>
               </div>
             </div>
             <div class="col-md-7 col-lg-7 section-md-t3">
@@ -92,6 +106,7 @@
             </div>
           </div>
         </div>
+        
         @auth
         <div class="col-md-12">
           <div class="row section-t3">

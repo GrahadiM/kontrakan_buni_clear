@@ -67,7 +67,7 @@
                       <a href="{{ route('detail', $post->id) }}">
                         {{ $post->title }}
                         <br>
-                        <sup>{{ $diff_date }}</sup>
+                        {{-- <sup>{{ $diff_date }}</sup> --}}
                       </a>
                   </h2>
                 </div>

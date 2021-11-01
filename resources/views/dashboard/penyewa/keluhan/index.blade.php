@@ -76,8 +76,8 @@
                                                         @csrf
                                                         <a href="{{ route('keluhan.show', $laporan->id) }}" class="mb-1 btn btn-sm btn-info"><i class="fas fa-search"></i></a>
                                                         {{-- <a href="{{ route('keluhan.edit', $laporan->id) }}" class="mb-1 btn btn-sm btn-primary"><i class="fas fa-pencil-alt"></i></a> --}}
-                                                        <a href="https://wa.me/{{ $laporan->sewa->user->phone }}" target="_blank" class="mb-1 btn btn-sm btn-success mb-1"><i class="fab fa-whatsapp"></i></a>
-                                                        {{-- <button type="submit" class="mb-1 btn btn-sm btn-danger mb-1" onclick="return confirm('Do you want to delete this data?')"><i class="fas fa-trash"></i></button> --}}
+                                                        {{-- <a href="https://wa.me/{{ $laporan->sewa->user->phone }}" target="_blank" class="mb-1 btn btn-sm btn-success mb-1"><i class="fab fa-whatsapp"></i></a> --}}
+                                                        <button type="submit" class="mb-1 btn btn-sm btn-danger mb-1" onclick="return confirm('Do you want to delete this data?')"><i class="fas fa-trash"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>

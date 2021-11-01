@@ -18,6 +18,7 @@ class UsersSeeder extends Seeder
         User::truncate();
         $user = [
             [
+                'id' => '1',
                 'name' => 'Admin',
                 'role' => 'admin',
                 'gender' => '-',
@@ -30,6 +31,7 @@ class UsersSeeder extends Seeder
                 'email_verified_at' => '2021-07-09 20:19:13',
             ],
             [
+                'id' => '2',
                 'name' => 'Penyewa 1',
                 'role' => 'penyewa',
                 'status' => 'active',
@@ -43,6 +45,7 @@ class UsersSeeder extends Seeder
                 'email_verified_at' => '2021-07-09 20:19:13',
             ],
             [
+                'id' => '3',
                 'name' => 'Penyewa 2',
                 'role' => 'penyewa',
                 'status' => 'non-active',
