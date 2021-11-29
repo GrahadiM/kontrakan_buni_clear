@@ -46,9 +46,16 @@ class FrontendController extends Controller
     
     public function sendemail(Request $request)
     {
-        $data = $request->all();
+        $email = $request->email;
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        ];
+
         // dd($data);
-        Mail::to('kontrakanbuni@gmail.com')->send(new KontrakanBuniEmail($data));
+        Mail::to('abdurrahmangrahadimaulana@gmail.com')->send(new KontrakanBuniEmail($data));
         
         // \Mail::raw('Pesan dari pengunjung website '.$send->name, function ($message) use($send) {
         //     $message->from($send->email, $send->name);

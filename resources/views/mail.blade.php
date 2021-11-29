@@ -1,7 +1,24 @@
-<h3>Hello Develpoer</h3>
-I am {{ $name }} <br>
-My email address is {{ $email }} <br>
-My subject is {{ $subject }} <br>
-My message is {{ $message }} <br>
+<!DOCTYPE html>
 
-Thanks for read this...
+<html>
+
+<head>
+
+    <title>Hello Develpoer!</title>
+
+</head>
+
+<body>
+
+    <h1>{{ Str::ucfirst($data['subject']).' from '.Str::ucfirst($data['name']) }}</h1>
+
+    <p>{{ __('Email : ').$data['email'] }}</p>
+    <p>{{ Str::ucfirst($data['message']) }}</p>
+
+   
+
+    <p>Thanks for read this...</p>
+
+</body>
+
+</html>

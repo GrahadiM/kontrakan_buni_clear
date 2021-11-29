@@ -19,6 +19,11 @@ Route::middleware(['auth'])->group(function () {
     
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+    Route::get('profile', [App\Http\Controllers\ProfileController::class, 'edit'])->name('profile.edit');
+    Route::post('profile', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
+    Route::post('upload', [App\Http\Controllers\ProfileController::class, 'upload'])->name('profile.upload');
+    Route::post('password', [App\Http\Controllers\ProfileController::class, 'password'])->name('password');
+
     Route::middleware(['admin'])->group(function () {
         Route::resource('/posts', App\Http\Controllers\Admin\PostController::class); //post kontrakan
         Route::resource('/penyewa', App\Http\Controllers\Admin\TenantsController::class); //penyewa

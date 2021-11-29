@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Request;
 class KontrakanBuniEmail extends Mailable
 {
     use Queueable, SerializesModels;
+    public $data;
 
     /**
      * Create a new message instance.
@@ -21,21 +22,8 @@ class KontrakanBuniEmail extends Mailable
     public function __construct($data)
     {
         // dd($data);
-        $this->name = $data['name'];
-        $this->email = $data['email'];
-        $this->subject = $data['subject'];
-        $this->message = $data['message'];
+        $this->data = $data;
     }
-
-    // protected function validator(Request $request)
-    // {
-    //     return Validator::make($request, [
-    //         'name' => ['required', 'string', 'max:255'],
-    //         'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-    //         'subject' => ['required', 'string'],
-    //         'message' => ['required', 'string'],
-    //     ]);
-    // }
 
     /**
      * Build the message.
@@ -45,14 +33,15 @@ class KontrakanBuniEmail extends Mailable
     public function build(Request $request)
     {
         return $this
-                    // ->from('abdurrahmangrahadimaulana@gmail.com', 'Example')
                     ->view('mail')
-                    ->with([
-                        'name' => $this->name,
-                        'email' => $this->email,
-                        'subject' => $this->subject,
-                        'message' => $this->message,
-                    ]);
+                    ->with('data', $this->data);
+                    // ->from('abdurrahmangrahadimaulana@gmail.com', 'Example')
+                    // ->with([
+                    //     'name' => $this->name,
+                    //     'email' => $this->email,
+                    //     'subject' => $this->subject,
+                    //     'message' => $this->message,
+                    // ]);
         // return $this->from('abdurrahmangrahadimaulana@gmail.com')
         //            ->view('mail')
         //            ->with(

@@ -83,41 +83,6 @@
                     </div>
                   </div>
                 </form>
-              {{-- <form class="form-a contactForm" action="{{ route('sendemail') }}" method="POST" enctype="multipart/form-data">
-                @csrf
-                
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name">
-                      <div class="validation"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email">
-                      <div class="validation"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <div class="form-group">
-                      <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject">
-                      <div class="validation"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <div class="form-group">
-                      <textarea name="message" class="form-control" cols="45" rows="8" placeholder="Message"></textarea>
-                      <div class="validation"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <button type="submit" class="btn btn-a">Send Message</button>
-                  </div>
-                </div>
-              </form> --}}
             </div>
             <div class="col-md-5 section-md-t3">
               <div class="icon-box section-b2">
